@@ -1,0 +1,11 @@
+#define BattleManagerOffSet          0x12210F4
+#define GameManagerOffSet          0x1229458
+#define BoneSkeletonOffSet          0x705ED0
+#define PlayerNameOffSet          0x1EB968
+#define GameTypeOffSet          0x8420
+#define AutoUpdateOffSet          0x1223998
+#define WeaponNumberOffSet          0x1EBA98
+#define WindowsModeOffSet          0x1253028
+#define WeaponOffOffSet          0x10E2C
+#define TeamIndexOffSet          0x7EC
+#define TeamOffSet          0x5DC

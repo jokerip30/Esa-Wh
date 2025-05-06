@@ -1,0 +1,14 @@
+DWORD BattleManagerOffSet = 0x12220F4; // Error Pick_Charge_Round(1) AOB - A1 ?? ?? ?? ?? 8B 75 ?? 8B 80 ?? ?? ?? ?? 3B 46 ?? 74 48 83 7E    -   A1 ?? ?? 1B 01 8B ?? ?? 8B ?? ?? E8
+
+#define GameTypeOffSet 0x8420 // Error Pick_Charge_Round(1) AOB -  8B 80 20 84 00 00 3B 46 ?? 74 48 83 7E     -     A1 88 D9 1B 01 8B 40 1C 8B 48 10 E8 4C
+
+DWORD GameManagerOffSet = 0x122A338; // Error Pick_Charge_Round(1) AOB - A1 ?? ?? ?? ?? 8B 40 ?? 8B 48 ?? E8 ?? ?? ?? ?? 51 C7
+
+DWORD BoneSkeletonOffSet = 0x705E10; //   Bip01 Neck  AOB - E8 ?? ?? ?? ?? 89 44 24 ?? 85 C0 74 63 8D 48 ?? 51 8D    -     E8 ?? ?? ?? ?? 8B F8 85 FF 0F 84
+
+
+#define PlayerNameOffSet  0x1EB968  // AOB - 8D 81 ?? ?? ?? 00 50 8D 85 F0 FE FF FF 68 ?? ?? ?? ?? 50 E8 // AOB - BE 10 00 00 00 83 C4 18 89 85 D4 FD FF FF 89 B5 CC FD FF FF 83 78 FC 00  [%s] 001EB968 01EB968
+
+#define AutoUpdateOffSet 0x1224998 // AOB - 8B 0D ? ? ? ? 85 C9 74 11 6A 01 //011B6FD8 11B7FD8 11B8FE0 011BB0A0
+
+#define WeaponNumberOffSet 0x1EBA98 // AOB - FF B0 ?? ?? ?? ?? E8 ?? ?? ?? ?? 83 C4 04 84 C0 75 44 //001EBA98
